@@ -259,7 +259,7 @@ class AndroidLoggerAdapter extends MarkerIgnoringBase {
      *          the exception (throwable) to log
      */
     public void debug(String msg, Throwable t) {
-        log(Log.VERBOSE, msg, t);
+        log(Log.DEBUG, msg, t);
     }
 
     /**
